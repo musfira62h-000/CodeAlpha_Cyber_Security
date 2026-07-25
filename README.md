@@ -11,6 +11,33 @@ Cyber Security internship tasks for **CodeAlpha**.
 
 ---
 
+## Task 1 — Basic Network Sniffer
+
+Build a Python program to capture and analyze network traffic packets using **Scapy**, displaying source/destination IPs, protocols, and payloads.
+
+### Deliverables
+
+- [`CodeAlpha_Task1.pdf`](./CodeAlpha_Task1.pdf) — Task 1 report with setup, screenshots, and analysis  
+- [`task1_network_sniffer.py`](./task1_network_sniffer.py) — Scapy network sniffer script  
+
+### Lab roles
+
+| Role | Machine | Details |
+|------|---------|---------|
+| Traffic host | Windows (`hp`) | IP `192.168.1.12` |
+| Sniffer | Ubuntu (`musfira00@musfira00-virtual-machine`) | Runs Scapy sniffer |
+
+### How to run
+
+```bash
+sudo pip install scapy
+sudo python3 task1_network_sniffer.py
+```
+
+On Windows, generate traffic (e.g. `ping 8.8.8.8`) while the sniffer is running.
+
+---
+
 ## Task 2 — Phishing Awareness Training
 
 Create a presentation / awareness module on phishing attacks: recognizing phishing emails and fake websites, social engineering tactics, best practices, real-world examples, and interactive knowledge checks.
@@ -18,15 +45,6 @@ Create a presentation / awareness module on phishing attacks: recognizing phishi
 ### Deliverable
 
 - [`CodeAlpha_Task2_Phishing_Awareness_Training.pptx`](./CodeAlpha_Task2_Phishing_Awareness_Training.pptx) — phishing awareness training presentation (20 slides)
-
-### What’s covered
-
-- What phishing is and common variants (email, spear, whaling, vishing, smishing)
-- Anatomy of phishing emails and fake websites
-- Social engineering tactics
-- Annotated phishing email mockups
-- Real-world case studies with sources
-- Best practices + 3 knowledge-check questions
 
 ---
 
