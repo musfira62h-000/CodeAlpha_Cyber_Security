@@ -1,4 +1,4 @@
-﻿# CodeAlpha_Cyber_Security
+# CodeAlpha_Cyber_Security
 
 Cyber Security internship tasks for **CodeAlpha**.
 
@@ -54,7 +54,7 @@ Set up and configure a network-based Intrusion Detection System using **Snort**,
 
 ### Deliverable
 
-- Task 4 report (see local docs) â€” full Task 4 report with setup, rules, attacks, and screenshots
+- [`CodeAlpha_Task4_Network_IDS.docx`](./CodeAlpha_Task4_Network_IDS.docx) — full Task 4 Snort NIDS report with setup, rules, attacks, and screenshots
 
 ### Lab roles (from report)
 
